@@ -1,0 +1,576 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Padhaaro Mhaare Genes</title>
+  <link rel="icon" type="image/jpg" href="images/pmg.jpg">
+
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+  <!-- Custom Styles -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb; /* light gray background */
+    }
+
+    .gradient-bg {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .speaker-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+                  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+
+
+
+
+
+<!-- Organising Institutes Section -->
+<section id="organisers-top" class="bg-white py-12 border-b border-gray-200">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 space-y-8 md:space-y-0 md:space-x-8">
+
+    <!-- Left: IIT Jodhpur -->
+    <div class="flex flex-col items-center mb-6 md:mb-0 text-center">
+      <div class="h-24 w-50 flex items-center justify-center bg-white">
+        <img src="images/iit.png" alt="IIT Jodhpur Logo" class="max-h-full max-w-full object-contain scale-150">
+      </div>
+      <h3 class="text-base font-semibold text-gray-800 mt-3">Indian Institute of Technology, Jodhpur</h3>
+      <p class="text-sm text-gray-600 mt-1">Department of Bioscience and Bioengineering</p>
+    </div>
+
+    <!-- Right: IAS -->
+    <div class="flex flex-col items-center text-center">
+      <div class="h-24 w-40 flex items-center justify-center bg-white">
+        <img src="images/ias.png" alt="IAS Logo" class="max-h-full max-w-full object-contain">
+      </div>
+      <h3 class="text-base font-semibold text-gray-800 mt-3">Indian Academy of Sciences</h3>
+      <p class="text-sm text-gray-600 mt-1">Bengaluru, India</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Hero Section -->
+<section class="gradient-bg text-white py-20 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto text-center" data-aos="fade-down">
+    <h1 class="mt-4 text-5xl font-extrabold tracking-tight sm:text-6xl lg:text-7xl">
+      Padhaaro Mhaare Genes
+    </h1>
+    <p class="mt-6 max-w-3xl mx-auto text-xl">
+      A Mini-Symposium on Latest Advances in Genetics Research
+    </p>
+    <p class="mt-4 text-lg font-semibold uppercase tracking-wider">September 27, 2025</p>
+
+    <div class="mt-10 flex justify-center space-x-4">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSengDn_hQexXoPYvaoFfvFRhy3bwyqDd1EO1bkqtzMXm4UxUw/viewform" target="_blank" class="px-8 py-3 bg-white text-indigo-700 font-medium rounded-md hover:bg-gray-100 transition duration-300">
+        Register Now
+      </a>
+      <a href="#speakers" class="px-8 py-3 border border-white text-white font-medium rounded-md hover:bg-white hover:text-indigo-700 transition duration-300">
+        View Speakers
+      </a>
+    </div>
+  </div>
+</section>
+
+
+   <!-- About Section -->
+<div class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                About The Symposium
+            </h2>
+            <div class="mt-6 max-w-3xl mx-auto text-gray-500 text-lg">
+                <p>
+                    Join us for a day of cutting-edge genetics research, engaging talks, and discussions with top researchers. <strong>Padhaaro Mhaare Genes 2025</strong> highlights advances in genomics, rare genetic disorders, and forensic DNA applications.
+                </p>
+            </div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Cutting-edge Research -->
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-500 text-white mx-auto text-3xl">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-gray-900">Cutting-edge Research</h3>
+                <p class="mt-4 text-gray-600 text-base">
+                    Explore groundbreaking advances in genetics and genomics presented by leading researchers from across India.
+                </p>
+            </div>
+            
+            <!-- Networking -->
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-500 text-white mx-auto text-3xl">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-gray-900">Networking</h3>
+                <p class="mt-4 text-gray-600 text-base">
+                    Connect with scientists, clinicians, and students to exchange ideas and build professional relationships.
+                </p>
+            </div>
+            
+            <!-- Public Talk -->
+            <div class="bg-gray-50 p-8 rounded-lg shadow-lg text-center hover:shadow-2xl transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                <div class="flex items-center justify-center h-16 w-16 rounded-full bg-indigo-500 text-white mx-auto text-3xl">
+                    <i class="fas fa-gavel"></i>
+                </div>
+                <h3 class="mt-6 text-xl font-bold text-gray-900">Popular Talk</h3>
+                <p class="mt-4 text-gray-600 text-base">
+                    “Forensic DNA Fingerprinting” – learn how DNA profiling helps in criminal investigations, disaster victim identification, and resolving real-life cases.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add this in the <head> to include Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+<!-- Speakers Section -->
+<div id="speakers" class="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-16" data-aos="fade-up">
+      <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        Symposium Speakers
+      </h2>
+      <p class="mt-4 max-w-2xl mx-auto text-gray-500">
+        Distinguished researchers presenting at Padhaaro Mhaare Genes
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Ashwin Dalal -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Ashwin Dalal</h3>
+        <p class="text-sm text-indigo-600">CDFD</p>
+        <p class="text-gray-500 text-sm">Medical Genetics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Mission program in pediatric rare genetic disorders. The DBT-funded program for pediatric rare genetic disorders spans 16 clinical centres nationwide, offering diagnostics, research, and counselling through telemedicine and genome sequencing. Novel disease gene variants are functionally validated using cell lines, Drosophila, zebrafish, and mouse models, and bridge research and clinical applications.
+        </div>
+      </div>
+
+      <!-- Pankaj Yadav -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Pankaj Yadav</h3>
+        <p class="text-sm text-indigo-600">IIT-J</p>
+        <p class="text-gray-500 text-sm">Single-cell & Spatial Omics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Annotating cell types and sub-types in single-cell and spatial omics. Cell-type annotations rely on single-cell RNA sequencing (scRNA-seq) references or predefined marker sets. I will present ScInfeR, a graph-based cell-type annotation method that combines information from scRNA-seq references and marker sets. Benchmarking across atlas-scale scRNA-seq, scATAC-seq, and spatial datasets, evaluating 10 existing tools in over 100 cell-type prediction tasks, demonstrates ScInfeR’s superior performance.
+        </div>
+      </div>
+
+      <!-- Shailendra Goel -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Shailendra Goel</h3>
+        <p class="text-sm text-indigo-600">University of Delhi</p>
+        <p class="text-gray-500 text-sm">Plant Genetics & Genomics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Genomics empowers plant genetics. New genomics tools empower studies on crops like Carthamus tinctorius and environmentally important keystone species like Primula, allowing insights into genes involved in adaptation in natural environments.
+        </div>
+      </div>
+
+      <!-- Tej Sowpati -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="300">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Divya Tej Sowpati</h3>
+        <p class="text-sm text-indigo-600">CCMB</p>
+        <p class="text-gray-500 text-sm">Human Genomics & Epigenomics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Structural Variants in Indian Populations. Large genetic variants contribute to over 20 Mb of variation per genome. Using long-read sequencing technologies, we uncover the structural variant landscape from diverse healthy Indian samples.
+        </div>
+      </div>
+
+      <!-- Abhijit Sardesai -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="400">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Abhijit A. Sardesai</h3>
+        <p class="text-sm text-indigo-600">CDFD</p>
+        <p class="text-gray-500 text-sm">Bacterial Genetics & Physiology</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          A phosphorelay and a silent potassium transporter. Under laboratory conditions, some microbial solute transport processes are naturally rendered silent. I will discuss the silencing of the potassium efflux protein YcgO by the unphosphorylated state of PtsN in E. coli.
+        </div>
+      </div>
+
+      <!-- Nishant K.T -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="500">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Nishant K.T</h3>
+        <p class="text-sm text-indigo-600">IISER-Tvm</p>
+        <p class="text-gray-500 text-sm">Yeast Genetics, DNA Recombination & Repair</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Regulation of Loss of Heterozygosity by Environmental Factors. Chronic blue light exposure causes extensive LOH through ROS production, showing how ubiquitous environmental factors regulate LOH frequency and distribution through distinct mechanisms.
+        </div>
+      </div>
+
+      <!-- Bhaswati Pandit -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="600">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Bhaswati Pandit</h3>
+        <p class="text-sm text-indigo-600">NIMG</p>
+        <p class="text-gray-500 text-sm">Infectious Diseases & Immunology (TB)</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Genetic underpinning of host factors in tuberculosis. Host genetic factors play a major role in determining susceptibility to infection. We carried out genetic studies on patients with TB and their healthy household contacts to identify such factors.
+        </div>
+      </div>
+
+      <!-- Anshu Bharadwaj -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="700">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Anshu Bharadwaj</h3>
+        <p class="text-sm text-indigo-600">IMTECH</p>
+        <p class="text-gray-500 text-sm">Genome Analysis & Data Science</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          AI and structure driven approach for genome annotation. Applications of 3Di alphabet in bacterial genome annotation and data-driven approaches in infection biology, focusing on antimicrobial resistance.
+        </div>
+      </div>
+
+      <!-- Himanshu Sinha -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="800">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Himanshu Sinha</h3>
+        <p class="text-sm text-indigo-600">IIT-Madras</p>
+        <p class="text-gray-500 text-sm">Quantitative Genetics, Genomics, Transcriptomics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Activating the hidden backup circuit: Flip both switches simultaneously to change system behaviour. Two yeast variants unlock a latent arginine biosynthesis pathway, revealing how variant combinations rewire metabolism beyond additive effects.
+        </div>
+      </div>
+
+            <!-- Jahnavi Joshi -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="900">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Jahnavi Joshi</h3>
+        <p class="text-sm text-indigo-600">IISER-Pune</p>
+        <p class="text-gray-500 text-sm">Evolutionary & Ecological Biology</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Evolutionary and ecological perspectives on venom evolution in predatory soil arthropods. Using proteo-transcriptomics, we study venom evolution in scolopendrid centipedes. Venom proteins, particularly scoloptoxins, show strong positive selection, and venom diversity correlates with body size and ecological factors like diet.
+        </div>
+      </div>
+
+      <!-- Aravind N A -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1000">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Aravind N A</h3>
+        <p class="text-sm text-indigo-600">IISER-Trivandrum</p>
+        <p class="text-gray-500 text-sm">Freshwater Biodiversity & Evolution</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Clade age drove freshwater gastropod diversification. Older clades of freshwater snails and slugs in the Western Ghats are more species-rich. Miocene sea-level fluctuations and monsoon patterns caused a decline in diversification, while shifts to freshwater habitats and direct development did not significantly impact speciation rates.
+        </div>
+      </div>
+
+      <!-- Shankar Manoharan -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1100">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Shankar Manoharan</h3>
+        <p class="text-sm text-indigo-600">CCMB</p>
+        <p class="text-gray-500 text-sm">Microbial Pathogenesis</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Armour less but not defenceless: Klebsiella pneumoniae adaptation to the neonatal bloodstream. Capsule-inactivating insertions in neonatal sepsis isolates reveal adaptation mechanisms, showing how secondary mutations compensate for capsule loss and enable bloodstream survival.
+        </div>
+      </div>
+
+      <!-- Sucharita Dey -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1200">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Sucharita Dey</h3>
+        <p class="text-sm text-indigo-600">IISc-Bangalore</p>
+        <p class="text-gray-500 text-sm">Protein Engineering & Evolution</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Identifying the molecular determinants of proteins’ robustness to mutations. Structural compactness, local atomic density, and hydrogen bonds influence protein evolvability. Disease-causing vs neutral mutations are used in a machine learning classifier to predict deleterious substitution effects.
+        </div>
+      </div>
+
+      <!-- Sushmita Jha -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1300">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Sushmita Jha</h3>
+        <p class="text-sm text-indigo-600">NCCS</p>
+        <p class="text-gray-500 text-sm">Neuro-oncology & Immunology</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          Unlocking Glioma Mysteries: Biomarkers, patient-derived organoids, and tumour-immune dialogues. Biomarker discovery and organoids reveal tumour diversity, microenvironment interactions, and actionable pathways for targeted drug testing.
+        </div>
+      </div>
+
+      <!-- Murali Dharan Bashyam -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-purple-600" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1400">
+        <h3 class="text-lg font-semibold text-indigo-700 hover:text-purple-700 transition-colors duration-300">Murali Dharan Bashyam</h3>
+        <p class="text-sm text-indigo-600">IISc-Bangalore</p>
+        <p class="text-gray-500 text-sm">Cancer Genomics & Chromatin Biology</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          ‘I open at the close’: Gene fusions activate genes from closed chromatin compartments across cancer types. Fusion of genes from open and closed compartments activates the 3’ (B) partner gene, driven by transcriptional signals of the 5’ (A) partner gene.
+        </div>
+      </div>
+
+      <!-- Madhusudan Reddy Nandineni -->
+      <div class="speaker-card bg-white rounded-lg shadow-md p-6 hover:border-t-4 hover:border-indigo-700" onclick="toggleAbstract(this)" data-aos="fade-up" data-aos-delay="1500">
+        <h3 class="text-lg font-semibold text-purple-700 hover:text-indigo-700 transition-colors duration-300">Madhusudan Reddy Nandineni</h3>
+        <p class="text-sm text-indigo-600">CCMB</p>
+        <p class="text-gray-500 text-sm">Forensic Genetics</p>
+        <div class="abstract hidden mt-3 text-gray-600 text-sm">
+          DNA profiling in criminal investigations and mass disaster victim identification. Highlights landmark cases, methodologies, and challenges in DNA collection and analysis, showing the importance of genetic evidence in solving crimes and providing closure to families.
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Schedule Section -->
+<section id="schedule" class="py-20 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-extrabold text-gray-900 sm:text-5xl" data-aos="fade-up">
+        Schedule
+      </h2>
+      <p class="mt-4 text-xl text-gray-600" data-aos="fade-up" data-aos-delay="100">
+        Detailed program for Padhaaro Mhaare Genes – A Mini-Symposium on Latest Advances in Genetics Research
+      </p>
+    </div>
+
+    <div class="relative border-l-4 border-indigo-600 ml-4">
+      
+      <!-- Opening -->
+      <div class="mb-10 pl-6" data-aos="fade-up">
+        <p class="text-indigo-400 italic text-base">09:35 – 09:50</p>
+        <p class="font-bold text-indigo-700 text-2xl">Neeraj Jain</p>
+      </div>
+
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="50">
+        <p class="text-indigo-400 italic text-base">09:50 – 10:00</p>
+        <p class="font-bold text-indigo-700 text-2xl">Director, IIT Jodhpur</p>
+      </div>
+
+      <!-- Session 1 -->
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="100">
+        <p class="text-indigo-800 font-semibold text-xl">10:00 – 11:20 &nbsp; Session 1 (Chair: Rohit Joshi)</p>
+        <ul class="mt-3 text-gray-700 text-base space-y-2">
+          <li><span class="font-bold text-indigo-700 text-lg">10:00 – 10:20: Ashwin Dalal</span> – Mission program in pediatric rare genetic disorders.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">10:20 – 10:40: Pankaj Yadav</span> – Annotating cell types and sub-types in single-cell and spatial omics.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">10:40 – 11:00: Shailendra Goel</span> – Genomics empowers plant genetics.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">11:00 – 11:20: Tej Sowpati</span> – Structural Variants in Indian Populations.</li>
+        </ul>
+      </div>
+
+      <div class="mb-10 pl-6">
+        <p class="text-indigo-400 italic text-base">11:20 – 11:40</p>
+        <p class="text-gray-600 italic text-base">Tea Break</p>
+      </div>
+
+      <!-- Session 2 -->
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="150">
+        <p class="text-indigo-800 font-semibold text-xl">11:40 – 13:00 &nbsp; Session 2 (Chair: Tavpritesh Sethi)</p>
+        <ul class="mt-3 text-gray-700 text-base space-y-2">
+          <li><span class="font-bold text-indigo-700 text-lg">11:40 – 11:55: Abhijit Sardesai</span> – A phosphorelay and a silent potassium transporter.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">11:55 – 12:10: K T Nishant</span> – Regulation of Loss of Heterozygosity by Environmental Factors.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">12:10 – 12:25: Bhaswati Pandit</span> – Genetic underpinning of host factors in tuberculosis.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">12:25 – 12:40: Anshu Bharadwaj</span> – AI and structure driven approach for genome annotation.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">12:40 – 13:00: Himanshu Sinha</span> – Activating the hidden backup circuit: Flip both switches simultaneously to change system behaviour.</li>
+        </ul>
+      </div>
+
+      <div class="mb-10 pl-6">
+        <p class="text-indigo-400 italic text-base">13:00 – 14:00</p>
+        <p class="text-gray-600 italic text-base">Lunch</p>
+      </div>
+
+      <!-- Session 3 -->
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="200">
+        <p class="text-indigo-800 font-semibold text-xl">14:00 – 15:00 &nbsp; Session 3 (Chair: Kartiki Desai)</p>
+        <ul class="mt-3 text-gray-700 text-base space-y-2">
+          <li><span class="font-bold text-indigo-700 text-lg">14:00 – 14:15: Jahnavi Joshi</span> – Evolutionary and ecological perspectives on venom evolution in predatory soil arthropods.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">14:15 – 14:30: Aravind N A</span> – Clade age drove freshwater gastropod diversification.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">14:30 – 14:45: Shankar Manoharan</span> – Armour less but not defenceless: Klebsiella pneumoniae adaptation to the neonatal bloodstream.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">14:45 – 15:00: Sucharita Dey</span> – Identifying the molecular determinants of proteins’ robustness to mutations.</li>
+        </ul>
+      </div>
+
+      <div class="mb-10 pl-6">
+        <p class="text-indigo-400 italic text-base">15:00 – 15:20</p>
+        <p class="text-gray-600 italic text-base">Tea Break</p>
+      </div>
+
+      <!-- Session 4 -->
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="250">
+        <p class="text-indigo-800 font-semibold text-xl">15:20 – 15:55 &nbsp; Session 4 (Chair: Karthik Tallapaka)</p>
+        <ul class="mt-3 text-gray-700 text-base space-y-2">
+          <li><span class="font-bold text-indigo-700 text-lg">15:20 – 15:40: Sushmita Jha</span> – Unlocking Glioma Mysteries: Biomarkers, patient-derived organoids, and tumour-immune dialogues.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">15:40 – 16:00: Murali Dharan Bashyam</span> – ‘I open at the close’: Gene Fusions activate genes from closed chromatin compartments across cancer types.</li>
+          <li><span class="font-bold text-indigo-700 text-lg">16:00 – 16:15: Closing Remarks</span> – D P Kasbekar</li>
+        </ul>
+      </div>
+
+      <!-- Public Talk -->
+      <div class="mb-10 pl-6" data-aos="fade-up" data-aos-delay="300">
+        <p class="text-indigo-800 font-semibold text-xl">16:30 – 18:00 &nbsp; Public Talk (Chair: Neeraj Jain)</p>
+        <ul class="mt-3 text-gray-700 text-base space-y-2">
+          <li><span class="font-bold text-indigo-700 text-lg">N Madhusudan Reddy</span> – DNA profiling in criminal investigations and mass disaster victim identification.</li>
+          <li class="italic text-gray-500">In parallel: JG EBM</li>
+        </ul>
+      </div>
+
+      <div class="pl-6 mb-10">
+        <p class="text-indigo-400 italic text-base">18:30 – 19:15</p>
+        <p class="text-gray-600 italic text-base">Tea Break</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Registration Section -->
+<div id="register" class="gradient-bg text-white py-16 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-extrabold sm:text-4xl" data-aos="fade-down">
+      Ready to Join Padhaaro Mhaare Genes 2025?
+    </h2>
+    <p class="mt-6 text-lg leading-7" data-aos="fade-down" data-aos-delay="100">
+      Reserve your spot today and be part of the most exciting event on Latest Advances in Genetics Research.
+    </p>
+
+   <!-- Registration Info Box -->
+<div class="mt-8 bg-white text-indigo-700 rounded-lg shadow-lg p-6 inline-block text-left max-w-md w-full" data-aos="fade-up" data-aos-delay="150">
+  <p class="font-semibold mb-2">Registration Details</p>
+  <ul class="list-disc list-inside text-indigo-700">
+    <li><strong>Registration Deadline:</strong> September 23, 2025</li>
+    <li><strong>Registration Fee:</strong> There is no registration fee</li>
+    <li><strong>Note:</strong> Prior registration is mandatory for all attendees</li>
+  </ul>
+</div>
+
+
+    <div class="mt-10" data-aos="fade-up" data-aos-delay="200">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSengDn_hQexXoPYvaoFfvFRhy3bwyqDd1EO1bkqtzMXm4UxUw/viewform" class="px-8 py-4 bg-white text-indigo-700 font-medium rounded-md text-lg hover:bg-gray-100 transition duration-300 inline-block">
+        Register Now
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Symposium Location Section -->
+<section id="location" class="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+  <div class="max-w-7xl mx-auto">
+    <!-- Section Heading -->
+    <div class="text-center mb-12" data-aos="fade-up">
+      <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        Symposium Location
+      </h2>
+      <p class="mt-4 max-w-2xl mx-auto text-gray-500">
+        Join us at <strong>Jodhpur Club, IIT Jodhpur</strong> for Padhaaro Mhaare Genes 2025.
+      </p>
+    </div>
+
+    <!-- Grid: Description + Map -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <!-- Description -->
+      <div data-aos="fade-right">
+        <h3 class="text-xl font-semibold text-indigo-700">About the Venue</h3>
+        <p class="mt-4 text-gray-600">
+          The symposium will be held at the Jodhpur Club within the IIT Jodhpur campus. 
+          It offers spacious halls, easy accessibility, and a comfortable environment for all attendees.
+        </p>
+        <p class="mt-2 text-gray-500 italic">
+          Click on the map to explore directions and nearby facilities.
+        </p>
+      </div>
+
+      <!-- Google Map Embed -->
+      <div data-aos="fade-left">
+        <iframe
+          class="w-full h-80 rounded-lg shadow-lg"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14285.21986223292!2d73.10085475444792!3d26.478123967914712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3941eba826eef93d%3A0x4a652aa52f7bd3d3!2sJodhpur%20Club!5e0!3m2!1sen!2sin!4v1758043177450!5m2!1sen!2sin"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Jodhpur Club Photo Banner -->
+<section class="relative w-full h-96">
+  <img src="images/iitjclub.jpg" alt="Jodhpur Club, IIT Jodhpur" class="w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+    <h2 class="text-3xl sm:text-4xl text-white font-extrabold text-center">
+      Jodhpur Club, IIT Jodhpur
+    </h2>
+  </div>
+</section>
+
+
+
+ <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Padhaaro Mhaare Genes</h3>
+                    <p class="text-gray-400">
+                        Exploring recent breakthroughs and emerging directions in genetics research.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#speakers" class="text-gray-400 hover:text-white transition">Speakers</a></li>
+                        <li><a href="#register" class="text-gray-400 hover:text-white transition">Register</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-400"><i data-feather="mail" class="mr-2"></i> info@genes.com</li>
+                        <li class="flex items-center text-gray-400"><i data-feather="phone" class="mr-2"></i> +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i data-feather="facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2025 Padhaaro Mhaare Genes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+  // Initialize animations & icons
+  AOS.init({ duration: 800, once: true });
+  feather.replace();
+
+  // Toggle abstracts
+  function toggleAbstract(card) {
+    const abstract = card.querySelector('.abstract');
+    if (abstract) {
+      abstract.classList.toggle('hidden');
+    }
+  }
+</script>
+
+</body>
+</html>
